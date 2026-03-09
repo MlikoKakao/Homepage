@@ -38,6 +38,11 @@ The homepage also highlights three interest areas:
 - Mandarin
 - IoT
 
+<img width="1764" height="1094" alt="Homepage1" src="https://github.com/user-attachments/assets/c68428d0-8028-47e3-8ffd-89f8bf428569" />
+
+All pages are also available in **dark mode**.
+<img width="1764" height="1094" alt="Homepage4" src="https://github.com/user-attachments/assets/1baf1cb2-b63f-44c2-868b-ed1b7929647a" />
+
 ---
 
 ### Projects
@@ -47,6 +52,9 @@ A simple overview of projects I worked on, including:
 - **Crypto Sentiment Tracker**
 - **Arduino experiments**
 - **Web-based Solo** (JavaScript browser game)
+
+
+<img width="1764" height="1094" alt="Homepage3" src="https://github.com/user-attachments/assets/0536e09f-6497-48c4-92ba-49a075ae7ca6" />
 
 ---
 
@@ -59,6 +67,8 @@ A small practice tool for Mandarin learners including:
   - Pleco
   - Taiwan MOE dictionaries
   - TOCFL information
+
+<img width="1764" height="1094" alt="Homepage2" src="https://github.com/user-attachments/assets/3d0d7813-f30d-490d-9b7f-e20989636b32" />
 
 ---
 
