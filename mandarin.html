@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+		crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+		crossorigin="anonymous"></script>
+	<link href="styles.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mandarin | Matěj Klepač</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/index.html">Matěj Klepač</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page"
+							href="/projects.html">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/mandarin.html">Mandarin</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="iot.html">
+							IoT
+						</a>
+					</li>
+				</ul>
+				<span id="current-time" class="text-muted small mr-3">12:00:00</span>
+
+				<button id="themeBtn" type="button" class="btn btn-outline-dark btn-sm"
+					data-bs-toggle="button" aria-pressed="false">
+					<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+						width="24px" fill="#e3e3e3">
+						<path
+							d="M338.5-338.5Q280-397 280-480t58.5-141.5Q397-680 480-680t141.5 58.5Q680-563 680-480t-58.5 141.5Q563-280 480-280t-141.5-58.5ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z" />
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+						width="24px" fill="#e3e3e3">
+						<path
+							d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" />
+					</svg>
+				</button>
+			</div>
+		</div>
+	</nav>
+
+
+	<main class="container py-5">
+		<header class="mb-4">
+			<h1 class="display-5 mb-2">Mandarin mini-practice</h1>
+			<p class="text-muted mb-0">A small practice tool for useful phrases/words in Taiwan.</p>
+		</header>
+
+		<section class="row">
+			<div class="col-lg-6">
+				<div class="card shadow-sm">
+					<div class="card-body">
+						<h2>Flashcards</h2>
+						<p class="small text-muted mb-0"> Using JS to switch randomly between
+							entries.
+						</p>
+
+						<div class="flashcard mb-3" id="flashcard" role="region"
+							aria-label="Flashcard">
+							<div class="fc-front" id="fcMan">你好世界</div>
+							<div class="bc-zhu mt-2" id="bcZhu">ㄋㄧˇ ㄏㄠˇㄕˋㄐㄧㄝˋ</div>
+							<div class="bc-res" id="bcRes">Hello, world</div>
+
+						</div>
+					</div>
+
+					<div class="d-flex flex-wrap">
+						<button id="nextPr" type="button"
+							class="btn btn-primary mr-2 mb-2">Next</button>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-lg-6">
+				<div class="card shadow-sm">
+					<div class="card-body">
+						<h2 style="text-align: center;">Resources</h2>
+						<ul class="list-group list-group-flush">
+
+							<li class="list-group-item">
+								<a href="https://www.pleco.com/" target="_blank">
+									Pleco Dictionary
+								</a>
+								<br>
+								Chinese dictionary app supporting Traditional characters
+								and Zhuyin (ㄅㄆㄇㄈ).
+							</li>
+
+							<li class="list-group-item">
+								<a href="https://www.moedict.tw/" target="_blank">
+									Taiwan MOE Dictionary (教育部字典)
+								</a>
+								<br>
+								Official Taiwanese Mandarin dictionary with Zhuyin
+								pronunciation.
+							</li>
+
+							<li class="list-group-item">
+								<a href="https://stroke-order.learningweb.moe.edu.tw/"
+									target="_blank">
+									MOE Stroke Order Database
+								</a>
+								<br>
+								Official stroke order animations for Traditional Chinese
+								characters.
+							</li>
+
+							<li class="list-group-item">
+								<a href="https://www.duchinese.net/" target="_blank">
+									Du Chinese
+								</a>
+								<br>
+								Graded Chinese reading practice with audio. Supports
+								Traditional characters.
+							</li>
+
+							<li class="list-group-item">
+								<a href="https://tocfl.edu.tw/" target="_blank">
+									TOCFL (Test of Chinese as a Foreign Language)
+								</a>
+								<br>
+								Official Mandarin proficiency test used in Taiwan.
+							</li>
+
+						</ul>
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</main>
+	<footer class="d-flex flex-wrap justify-content-between alighn-items-centter py-3 my-4 border-top">
+		<p class="col-md-4 mb-0 text-body-secondary">© 2026 Matěj Klepac </p>
+		<ul class="nav col-md-4 justify-content-end">
+			<li class="nav-item">
+				<a href="/index.html" class="nav-link px-2 text-body-secondary">Home</a>
+			</li>
+
+			<li class="nav-item">
+				<a href="/projects.html" class="nav-link px-2 text-body-secondary">Projects</a>
+			</li>
+
+			<li class="nav-item">
+				<a href="/mandarin.html" class="nav-link px-2 text-body-secondary">Mandarin</a>
+			</li>
+
+			<li class="nav-item">
+				<a href="/iot.html" class="nav-link px-2 text-body-secondary">IoT</a>
+			</li>
+		</ul>
+	</footer>
+	<script src="script.js" defer></script>
+</body>
+
+</html>

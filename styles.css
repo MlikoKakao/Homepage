@@ -1,0 +1,96 @@
+:root {
+	--bg: #e2d9f3;
+	--fg: #140330;
+	--surface: #c29ffa;
+}
+
+body {
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+	background: white;
+	color: var(--fg);
+}
+
+body.darkmode {
+	background: #121417;
+	color: #e4e6eb;
+}
+
+.darkmode .card {
+	background-color: #1b1f24;
+	border-color: #2c3238;
+}
+
+.hero {
+	background: var(--bg);
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+#themeBtn {
+	color: var(--fg);
+}
+
+body.darkmode #themeBtn {
+	color: var(--bg);
+}
+
+#themeBtn svg:last-child {
+	display: none;
+}
+
+body.darkmode #themeBtn svg:first-child {
+	display: none;
+}
+
+body.darkmode #themeBtn svg:last-child {
+	display: inline-block;
+}
+
+body.darkmode .hero {
+	background: #181c22;
+}
+
+.navbar {
+	background-color: #7c4dff;
+}
+
+.darkmode .navbar {
+	background-color: #1f2630;
+}
+
+.darkmode .card {
+	background-color: #1b1f24;
+	border-color: #2c3238;
+	color: #e4e6eb;
+}
+
+.darkmode .text-muted {
+	color: #9aa4af !important;
+}
+
+.container {
+	background: transparent;
+}
+
+body.darkmode .bg-body-tertiary {
+	background-color: #1b1f24 !important;
+	color: #e4e6eb !important;
+}
+
+.accent {
+	color: #6610f2;
+}
+
+.flashcard {
+	text-align: center;
+	border-radius: 16px;
+	border: 1px solid rgba(0, 0, 0, 0.10);
+	background: #fff;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.flashcard .fc-front {
+	font-size: 2.2rem;
+	font-weight: 700;
+	letter-spacing: 0.02rem;
+}
